@@ -8,3 +8,6 @@ function Pessoa() {
 }
 
 new Pessoa
+
+
+//neste caso o this não vai variar pois foi criado a função arrow dentro do contexto da função Pessoa

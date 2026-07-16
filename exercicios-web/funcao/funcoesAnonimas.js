@@ -8,13 +8,18 @@ const imprimirResultado = function (a, b, operacao = soma) {
 
 imprimirResultado(3, 4)
 imprimirResultado(3, 4, soma)
+
+//função anônima
 imprimirResultado(3, 4, function (x, y) {
     return x - y
 })
+
+// função anônima arrow
 imprimirResultado(3, 4, (x, y) => x * y)
 
+// criado função dentro de um objeto
 const pessoa = {
-    falar: function () {
+    falar: function () {      // atributo função
         console.log('Opa')
     }
 }

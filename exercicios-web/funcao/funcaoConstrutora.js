@@ -1,5 +1,5 @@
 function Carro(velocidadeMaxima = 200, delta = 5) {
-    // atributo privado
+    // atributo privado, com let, const ou var
     let velocidadeAtual = 0
 
     // metodo publico
@@ -28,4 +28,4 @@ ferrari.acelerar()
 console.log(ferrari.getVelocidadeAtual())
 
 console.log(typeof Carro)
-console.log(typeof ferrari)
+console.log(typeof ferrari) // object, foi instanciado a partir da função Carro

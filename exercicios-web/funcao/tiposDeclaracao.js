@@ -1,4 +1,4 @@
-console.log(soma(3, 4))
+console.log(soma(3, 4)) // quando defino função da forma function declaration pposso chamar ela antes da linha da sua criação, pois o interpretador carrega previamente todas as funções declaradas function declaration
 
 // function declaration
 function soma(x, y) {
