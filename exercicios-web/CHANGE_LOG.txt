@@ -1,0 +1,2 @@
+1.0
+0011 - 31/07/2026 - Finalizando Seção 6:JavaScript: Função
