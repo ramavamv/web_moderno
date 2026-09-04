@@ -1,0 +1,7 @@
+1.0
+0012 - 04/09/2026 - Seção 7: JavaScript: Objeto
+0011 - 31/07/2026 - Finalizando Seção 6:JavaScript: Função
+0010 - 16/07/2026 - Seção 6:JavaScript: Função
+0009 - 09/07/2026 - Seção 3 anotações
+0008 - 09/07/2026 - Arquivos e anotações
+0007 - 09/07/2026 - WebModerno

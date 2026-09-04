@@ -1,5 +1,5 @@
 class Lancamento {
-    constructor(nome = 'Genérico', valor = 0) {
+    constructor(nome = 'Genérico', valor = 0) { // função chamada quando a classe for instanciada
         this.nome = nome
         this.valor = valor
     }
@@ -23,6 +23,11 @@ class CicloFinanceiro {
         })
         return valorConsolidado
     }
+
+    // com reduce
+    // sumario() {
+    //     return this.lancamentos.reduce((acumulador, lancamento) => acumulador + lancamento.valor, 0)
+    // }
 }
 
 const salario = new Lancamento('Salario', 45000)

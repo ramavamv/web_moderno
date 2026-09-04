@@ -41,4 +41,4 @@ delete carro.proprietario.endereco
 delete carro.calcularValorSeguro
 console.log(carro)
 console.log(carro.condutores)
-console.log(carro.condutores.length)
+console.log(carro.condutores.length) // apresenta erro, pois tenta acessar o comprimento do atributo condutores que não existe mais

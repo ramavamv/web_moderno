@@ -1,7 +1,7 @@
 const sequencia = {
-    _valor: 1, // convenção
+    _valor: 1, // convenção, mostra aos devs que é uma variável que é pretendida acesso somente internamente, dentro deste objeto
     get valor() { return this._valor++ },
-    set valor(valor) { 
+    set valor(valor) {
         if(valor > this._valor) {
             this._valor = valor
         }
