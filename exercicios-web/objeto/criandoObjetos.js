@@ -41,5 +41,6 @@ filha.nome = 'Ana'
 console.log(filha)
 
 // Um função famosa que retorna Objeto...
-const fromJSON = JSON.parse('{"info": "Sou um JSON"}')
-console.log(fromJSON.info)
+const fromJSON = JSON.parse('{"info": "Sou um JSON"}')  // convertendo um JSON em objeto
+console.log(fromJSON.info) // Sou um JSON
+console.log(fromJSON) // { info: 'Sou um JSON' }

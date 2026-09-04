@@ -1,6 +1,6 @@
-console.log(typeof String)
-console.log(typeof Array)
-console.log(typeof Object)
+console.log(typeof String) // function
+console.log(typeof Array) // function
+console.log(typeof Object) // function
 
 String.prototype.reverse = function () {
     return this.split('').reverse().join('')
@@ -15,6 +15,7 @@ Array.prototype.first = function() {
 console.log([1, 2, 3, 4, 5].first())
 console.log(['a', 'b', 'c'].first())
 
+//SOBRESESCREVO a function toString
 String.prototype.toString = function () {
     return 'Lascou tudo'
 }
